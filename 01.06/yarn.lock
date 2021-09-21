@@ -1506,6 +1506,11 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/history@*":
+  version "4.7.9"
+  resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.9.tgz#1cfb6d60ef3822c589f18e70f8b12f9a28ce8724"
+  integrity sha512-MUc6zSmU3tEVnkQ78q0peeEjKWPUADMlC/t++2bI8WnAG2tvYRPIgHG8lWkXwqc8MsUF6Z2MOf+Mh5sazOmhiQ==
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.1.tgz#42995b446db9a48a11a07ec083499a860e9138ff"
@@ -1563,6 +1568,23 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-router-dom@^5.1.5":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.3.0.tgz#8c4e0aa0ccaf638ba965829ad29a10ac3cbe2212"
+  integrity sha512-svUzpEpKDwK8nmfV2vpZNSsiijFNKY8+gUqGqvGGOVrXvX58k1JIJubZa5igkwacbq/0umphO5SsQn/BQsnKpw==
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
+    "@types/react-router" "*"
+
+"@types/react-router@*":
+  version "5.1.16"
+  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-5.1.16.tgz#f3ba045fb96634e38b21531c482f9aeb37608a99"
+  integrity sha512-8d7nR/fNSqlTFGHti0R3F9WwIertOaaA1UEB8/jr5l5mDMOs4CidEgvvYMw4ivqrBK+vtVLxyTj2P+Pr/dtgzg==
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
+
 "@types/react@*":
   version "16.9.35"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.35.tgz#a0830d172e8aadd9bd41709ba2281a3124bbd368"
@@ -1570,6 +1592,107 @@
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
+
+"@types/rx-core-binding@*":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@types/rx-core-binding/-/rx-core-binding-4.0.4.tgz#d969d32f15a62b89e2862c17b3ee78fe329818d3"
+  integrity sha512-5pkfxnC4w810LqBPUwP5bg7SFR/USwhMSaAeZQQbEHeBp57pjKXRlXmqpMrLJB4y1oglR/c2502853uN0I+DAQ==
+  dependencies:
+    "@types/rx-core" "*"
+
+"@types/rx-core@*":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/rx-core/-/rx-core-4.0.3.tgz#0b3354b1238cedbe2b74f6326f139dbc7a591d60"
+  integrity sha1-CzNUsSOM7b4rdPYybxOdvHpZHWA=
+
+"@types/rx-lite-aggregates@*":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-aggregates/-/rx-lite-aggregates-4.0.3.tgz#6efb2b7f3d5f07183a1cb2bd4b1371d7073384c2"
+  integrity sha512-MAGDAHy8cRatm94FDduhJF+iNS5//jrZ/PIfm+QYw9OCeDgbymFHChM8YVIvN2zArwsRftKgE33QfRWvQk4DPg==
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-async@*":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-async/-/rx-lite-async-4.0.2.tgz#27fbf0caeff029f41e2d2aae638b05e91ceb600c"
+  integrity sha512-vTEv5o8l6702ZwfAM5aOeVDfUwBSDOs+ARoGmWAKQ6LOInQ8J4/zjM7ov12fuTpktUKdMQjkeCp07Vd73mPkxw==
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-backpressure@*":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-backpressure/-/rx-lite-backpressure-4.0.3.tgz#05abb19bdf87cc740196c355e5d0b37bb50b5d56"
+  integrity sha512-Y6aIeQCtNban5XSAF4B8dffhIKu6aAy/TXFlScHzSxh6ivfQBQw6UjxyEJxIOt3IT49YkS+siuayM2H/Q0cmgA==
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-coincidence@*":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-coincidence/-/rx-lite-coincidence-4.0.3.tgz#80bd69acc4054a15cdc1638e2dc8843498cd85c0"
+  integrity sha512-1VNJqzE9gALUyMGypDXZZXzR0Tt7LC9DdAZQ3Ou/Q0MubNU35agVUNXKGHKpNTba+fr8GdIdkC26bRDqtCQBeQ==
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-experimental@*":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-experimental/-/rx-lite-experimental-4.0.1.tgz#c532f5cbdf3f2c15da16ded8930d1b2984023cbd"
+  integrity sha1-xTL1y98/LBXaFt7Ykw0bKYQCPL0=
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-joinpatterns@*":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-joinpatterns/-/rx-lite-joinpatterns-4.0.1.tgz#f70fe370518a8432f29158cc92ffb56b4e4afc3e"
+  integrity sha1-9w/jcFGKhDLykVjMkv+1a05K/D4=
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-testing@*":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-testing/-/rx-lite-testing-4.0.1.tgz#21b19d11f4dfd6ffef5a9d1648e9c8879bfe21e9"
+  integrity sha1-IbGdEfTf1v/vWp0WSOnIh5v+Iek=
+  dependencies:
+    "@types/rx-lite-virtualtime" "*"
+
+"@types/rx-lite-time@*":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-time/-/rx-lite-time-4.0.3.tgz#0eda65474570237598f3448b845d2696f2dbb1c4"
+  integrity sha512-ukO5sPKDRwCGWRZRqPlaAU0SKVxmWwSjiOrLhoQDoWxZWg6vyB9XLEZViKOzIO6LnTIQBlk4UylYV0rnhJLxQw==
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-virtualtime@*":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-virtualtime/-/rx-lite-virtualtime-4.0.3.tgz#4b30cacd0fe2e53af29f04f7438584c7d3959537"
+  integrity sha512-3uC6sGmjpOKatZSVHI2xB1+dedgml669ZRvqxy+WqmGJDVusOdyxcKfyzjW0P3/GrCiN4nmRkLVMhPwHCc5QLg==
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite@*":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite/-/rx-lite-4.0.6.tgz#3c02921c4244074234f26b772241bcc20c18c253"
+  integrity sha512-oYiDrFIcor9zDm0VDUca1UbROiMYBxMLMaM6qzz4ADAfOmA9r1dYEcAFH+2fsPI5BCCjPvV9pWC3X3flbrvs7w==
+  dependencies:
+    "@types/rx-core" "*"
+    "@types/rx-core-binding" "*"
+
+"@types/rx@^4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@types/rx/-/rx-4.1.2.tgz#a4061b3d72b03cf11a38d69e2022a17334c54dc0"
+  integrity sha512-1r8ZaT26Nigq7o4UBGl+aXB2UMFUIdLPP/8bLIP0x3d0pZL46ybKKjhWKaJQWIkLl5QCLD0nK3qTOO1QkwdFaA==
+  dependencies:
+    "@types/rx-core" "*"
+    "@types/rx-core-binding" "*"
+    "@types/rx-lite" "*"
+    "@types/rx-lite-aggregates" "*"
+    "@types/rx-lite-async" "*"
+    "@types/rx-lite-backpressure" "*"
+    "@types/rx-lite-coincidence" "*"
+    "@types/rx-lite-experimental" "*"
+    "@types/rx-lite-joinpatterns" "*"
+    "@types/rx-lite-testing" "*"
+    "@types/rx-lite-time" "*"
+    "@types/rx-lite-virtualtime" "*"
 
 "@types/stack-utils@^1.0.1":
   version "1.0.1"
@@ -9974,9 +10097,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
